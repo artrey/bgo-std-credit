@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
+	"github.com/artrey/bgo-std-credit/pkg/credit"
 	"math"
 )
-import "github.com/artrey/bgo-std-credit/pkg/credit"
 
 func cents2rub(cents uint64) uint64 {
 	return uint64(math.Round(float64(cents) / 100))
